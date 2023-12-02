@@ -9,7 +9,7 @@ body {
 .header-nav {
   background: #f8f8f9;
   height: 40px;
-  gap: 250px;
+  gap: 280px;
   padding-top: 10px;
   align-items: center;
 }
@@ -45,6 +45,7 @@ body {
 .logo-nav h1 {
   width: 155px;
   height: 200px;
+  margin-left: 20px;
   color: #d92e15;
 }
 .logo-nav span {
@@ -80,7 +81,8 @@ body {
   font-size: 20px;
 }
 .search-input {
-  border: 1px solid #f8f8f9;
+  width: 440px;
+  border: 1px solid #e8e8e8;
   border-radius: 12px;
   padding: 14px 24px;
 }
@@ -88,4 +90,65 @@ body {
   font-family: Golos-regular;
   font-weight: 400;
   font-size: 14px;
+}
+.user-item {
+  gap: 20px;
+}
+.balanced i {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.balanced span {
+  font-family: Golos-regular;
+  font-size: 14px;
+  font-weight: 400;
+}
+.items-group {
+  gap: 14px;
+  font-family: Golos-regular;
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.items-group li a {
+  color: #6c7178;
+  font-family: Golos-regular;
+  font-size: 13.5px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.aksiya a {
+  background: url(../images/svg/aksiya.svg) no-repeat 100%;
+  width: 100%;
+  background-position: center;
+  border-radius: 100px;
+  padding: 5px 10px;
+  color: #fff !important;
+}
+.visual {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: -1;
+  background: #d92e15;
+}
+.category-title{
+  padding: 0 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20px;
+  justify-content:space-between ;
+}
+.category-title h2{
+  font-family: Golos-bold;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+.category-title p a{
+  font-family: Golos-demibold;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7178;
 }
