@@ -1,0 +1,91 @@
+body {
+  font-family: Golos-bold;
+  font-weight: 500;
+}
+.contain {
+  width: 1365px;
+  margin: 0 auto;
+}
+.header-nav {
+  background: #f8f8f9;
+  height: 40px;
+  gap: 250px;
+  padding-top: 10px;
+  align-items: center;
+}
+.right-menu ul {
+  gap: 20px;
+}
+.left-menu-list {
+  color: #6c7178;
+}
+.header-nav ul li a {
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  color: #6c7178;
+}
+.header-nav ul li a:hover {
+  color: #37383a;
+}
+.language:hover {
+  color: #272727;
+}
+.language {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  color: #6c7178;
+  cursor: pointer;
+}
+.logo-nav h1 {
+  width: 155px;
+  height: 200px;
+  color: #d92e15;
+}
+.logo-nav span {
+  color: #223869;
+}
+.main-nav {
+  padding: 20px 10px;
+  gap: 20px;
+}
+.katalog {
+  padding: 12px 16px;
+  border-radius: 14px;
+  gap: 8px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  color: #fff;
+  background: #d92e15;
+}
+.katalog span {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: Golos-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.btn-search {
+  border-radius: 12px;
+  background: #d92e15;
+  padding: 12px 22px;
+  color: #fff;
+  font-family: Golos-regular;
+  font-weight: 400;
+  font-size: 20px;
+}
+.search-input {
+  border: 1px solid #f8f8f9;
+  border-radius: 12px;
+  padding: 14px 24px;
+}
+.search-input::placeholder {
+  font-family: Golos-regular;
+  font-weight: 400;
+  font-size: 14px;
+}
