@@ -98,11 +98,13 @@ body {
   font-size: 20px;
   text-align: center;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .balanced span {
   font-family: Golos-regular;
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
 }
 .carousel-inner img {
   width: 100%;
@@ -178,7 +180,9 @@ body {
 .category-items i {
   background: #fdf2f1;
   border-radius: 10px;
+  color: #e6046d;
   padding: 15px;
+  cursor: pointer;
 }
 .artel-company {
   width: 100%;
@@ -205,7 +209,7 @@ body {
   cursor: pointer;
 }
 .tv-cards {
-  gap: 50px;
+  gap: 45px;
   flex-wrap: wrap;
   padding: 0 20px;
 }
@@ -248,7 +252,8 @@ body {
 }
 .tv-origin {
   width: 170px;
-  height: 200px;
+  height: 170px;
+  margin-bottom: 20px;
 }
 .stars {
   width: 100px;
@@ -265,6 +270,8 @@ body {
   font-weight: 400;
 }
 .card-tv p {
+  width: 150px;
+  height: 50px;
   font-size: 14px;
   color: #6c7178;
   font-family: Golos-regular;
@@ -506,42 +513,42 @@ body {
   font-family: Golos-demibold;
   font-weight: 400;
 }
-.malumotlar p{
+.malumotlar p {
   color: #6c7178;
   font-size: 12px;
   font-family: Golos-regular;
   font-weight: 400;
   cursor: pointer;
 }
-.malumotlar p:hover{
-color: #fff;
-}
-.xizmatlar p:hover{
+.malumotlar p:hover {
   color: #fff;
-  }
-  .mijozlar p:hover{
-    color: #fff;
-    }
-.xizmatlar h4{
+}
+.xizmatlar p:hover {
+  color: #fff;
+}
+.mijozlar p:hover {
+  color: #fff;
+}
+.xizmatlar h4 {
   color: #fff;
   font-size: 14px;
   font-family: Golos-demibold;
   font-weight: 400;
 }
-.xizmatlar p{
+.xizmatlar p {
   color: #6c7178;
   font-size: 12px;
   font-family: Golos-regular;
   font-weight: 400;
   cursor: pointer;
 }
-.mijozlar h4{
+.mijozlar h4 {
   color: #fff;
   font-size: 14px;
   font-family: Golos-demibold;
   font-weight: 400;
 }
-.mijozlar p{
+.mijozlar p {
   color: #6c7178;
   font-size: 12px;
   font-family: Golos-regular;
@@ -554,14 +561,14 @@ color: #fff;
   height: 40px;
   align-items: center;
 }
-.last-footer h4{
+.last-footer h4 {
   color: #fff;
   line-height: 40px;
   font-size: 14px;
   font-family: Golos-demibold;
   font-weight: 400;
 }
-.last-footer span{
+.last-footer span {
   padding: 5px;
   cursor: pointer;
 }
