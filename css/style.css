@@ -204,12 +204,12 @@ body {
   margin-bottom: 20px;
   cursor: pointer;
 }
-.tv-cards{
+.tv-cards {
   gap: 50px;
   flex-wrap: wrap;
   padding: 0 20px;
 }
-.tv-cards del{
+.tv-cards del {
   font-family: Golos-regular;
   font-size: 12px;
   font-weight: 400;
@@ -219,7 +219,7 @@ body {
   background: #000 !important;
   color: #fff !important;
 }
-.card-tv h4{
+.card-tv h4 {
   font-size: 15px;
   font-family: Golos-bold;
   font-weight: 500;
@@ -237,7 +237,7 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
-.oylik{
+.oylik {
   border: 2px solid #868686;
   border-radius: 10px;
   padding: 4px 12px;
@@ -246,52 +246,54 @@ body {
   font-size: 13px;
   font-weight: 400;
 }
-.tv-origin{
+.tv-origin {
   width: 170px;
   height: 200px;
 }
-.stars{
+.stars {
   width: 100px;
   height: 100px;
 }
-.fa-wallet{
+.fa-wallet {
   font-size: 10px;
   color: #d92e15;
 }
-.bonus{
+.bonus {
   font-size: 12px;
   color: #6c7178;
   font-family: Golos-regular;
   font-weight: 400;
 }
-.card-tv p{
+.card-tv p {
   font-size: 14px;
-  color:  #6c7178;
+  color: #6c7178;
   font-family: Golos-regular;
   font-weight: 400;
   margin-top: 10px;
 }
-.shop{
+.shop {
   background: #d92e15;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 15px;
   text-align: center;
   color: #fff;
   cursor: pointer;
 }
-.like, .taroz{
+.like,
+.taroz {
   background: #e8e8e8;
   cursor: pointer;
   margin-left: 10px;
   color: #747373;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 15px;
   text-align: center;
 }
-.yangiliklar{
+.yangiliklar {
   padding: 0 10px;
+  margin-bottom: 40px;
 }
-.yangiliklar h2{
+.yangiliklar h2 {
   font-size: 24px;
   font-family: Golos-bold;
   font-weight: 500;
@@ -299,13 +301,267 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.yangi{
+.card-tv {
+  position: relative;
+}
+.yurak i {
+  position: absolute;
+  right: 0px;
+  top: -0px;
+}
+.yangi {
   width: 55px;
-  background: #d92e15;
+  background: #e6044c;
   border-radius: 6px;
   padding: 4px 12px;
   color: #fff;
   font-family: Golos-regular;
   font-size: 12px;
   font-weight: 400;
+}
+.xit {
+  width: 80px;
+  background: #e6046d;
+  border-radius: 6px;
+  padding: 4px 12px;
+  color: #fff;
+  font-family: Golos-regular;
+  font-size: 12px;
+  font-weight: 400;
+}
+.btn-danger {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 500;
+  width: 100%;
+  background: #d92e15;
+}
+.hafta-takliflari {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.hafta-takliflari h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.notebooks {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.notebooks h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.brends {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+.brends span {
+  border: 1px solid #f3f2f2;
+  padding: 15px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.nega-aynan {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.afzalliklar {
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.card-afzal img {
+  background: #fdf2f1;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-afzal {
+  border: 1px solid #f3f2f2;
+  border-radius: 15px;
+  padding: 10px;
+}
+.card-afzal h4 {
+  font-size: 16px;
+  color: #272727;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.card-afzal p {
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  color: #868686;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.nega-aynan h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.self-adds {
+  gap: 250px;
+  align-items: center;
+  width: 100%;
+  background: #f3f2f2;
+  padding: 0 10px;
+  margin-top: 100px;
+}
+.left-adds img {
+  transform: translateY(-40px);
+}
+.right-adds h2 {
+  font-size: 24px;
+  color: #272727;
+  font-family: Golos-bold;
+  font-weight: 400;
+}
+.right-adds p {
+  width: 300px;
+  font-size: 14px;
+  color: #868686;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.magazin {
+  gap: 20px;
+  cursor: pointer;
+}
+.footer-item {
+  background: #272727;
+  width: 100%;
+  gap: 60px;
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+.footer-contact h2 {
+  color: #fff;
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-contact p {
+  width: 250px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.footer-contact span {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.footer-contact span a {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.tolov {
+  width: 250px;
+}
+.tolov h4 {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.tolov img {
+  width: 100px;
+  height: 50px;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #222c3a;
+}
+.malumotlar h4 {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.malumotlar p{
+  color: #6c7178;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  cursor: pointer;
+}
+.malumotlar p:hover{
+color: #fff;
+}
+.xizmatlar p:hover{
+  color: #fff;
+  }
+  .mijozlar p:hover{
+    color: #fff;
+    }
+.xizmatlar h4{
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.xizmatlar p{
+  color: #6c7178;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  cursor: pointer;
+}
+.mijozlar h4{
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.mijozlar p{
+  color: #6c7178;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  cursor: pointer;
+}
+.last-footer {
+  background: #222c3a;
+  color: #fff;
+  height: 40px;
+  align-items: center;
+}
+.last-footer h4{
+  color: #fff;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.last-footer span{
+  padding: 5px;
+  cursor: pointer;
 }
