@@ -3,7 +3,7 @@ body {
   font-weight: 500;
 }
 .contain {
-  width: 1365px;
+  width: 1345px;
   margin: 0 auto;
 }
 .header-nav {
@@ -81,7 +81,7 @@ body {
   font-size: 20px;
 }
 .search-input {
-  width: 440px;
+  width: 420px;
   border: 1px solid #e8e8e8;
   border-radius: 12px;
   padding: 14px 24px;
@@ -103,6 +103,9 @@ body {
   font-family: Golos-regular;
   font-size: 14px;
   font-weight: 400;
+}
+.carousel-inner img {
+  width: 100%;
 }
 .items-group {
   gap: 14px;
@@ -133,22 +136,176 @@ body {
   z-index: -1;
   background: #d92e15;
 }
-.category-title{
+.category-title {
   padding: 0 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   height: 20px;
-  justify-content:space-between ;
+  justify-content: space-between;
 }
-.category-title h2{
+.category-title h2 {
   font-family: Golos-bold;
   font-size: 22px;
   font-weight: 500;
   color: #000;
 }
-.category-title p a{
+.category-title p a {
   font-family: Golos-demibold;
   font-size: 14px;
   font-weight: 500;
   color: #6c7178;
+}
+.categories {
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.category-items {
+  align-items: center;
+  gap: 20px;
+  padding: 15px 15px;
+  border-radius: 15px;
+  border: 1px solid #e8e8e8;
+}
+.category-items span {
+  font-family: Golos-regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #37383a;
+  text-transform: capitalize;
+}
+.category-items i {
+  background: #fdf2f1;
+  border-radius: 10px;
+  padding: 15px;
+}
+.artel-company {
+  width: 100%;
+  padding: 0 10px;
+}
+.artel-company h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+}
+.maishiy-texnika {
+  gap: 20px;
+}
+.maishiy-texnika span {
+  font-family: Golos-regular;
+  font-size: 14px;
+  font-weight: 400;
+  color: #37383a;
+  border-radius: 14px;
+  background: #e1e1e1a9;
+  padding: 7px 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.tv-cards{
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.tv-cards del{
+  font-family: Golos-regular;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6c7178;
+}
+.televizor {
+  background: #000 !important;
+  color: #fff !important;
+}
+.card-tv h4{
+  font-size: 15px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #272727;
+}
+
+.tv-zavod {
+  color: #ffffff;
+  width: 110px;
+  background: #0e7e2e;
+  border-radius: 6px;
+  padding: 4px 12px;
+  color: #fff;
+  font-family: Golos-regular;
+  font-size: 12px;
+  font-weight: 400;
+}
+.oylik{
+  border: 2px solid #868686;
+  border-radius: 10px;
+  padding: 4px 12px;
+  color: #6c7178;
+  font-family: Golos-regular;
+  font-size: 13px;
+  font-weight: 400;
+}
+.tv-origin{
+  width: 170px;
+  height: 200px;
+}
+.stars{
+  width: 100px;
+  height: 100px;
+}
+.fa-wallet{
+  font-size: 10px;
+  color: #d92e15;
+}
+.bonus{
+  font-size: 12px;
+  color: #6c7178;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.card-tv p{
+  font-size: 14px;
+  color:  #6c7178;
+  font-family: Golos-regular;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.shop{
+  background: #d92e15;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.like, .taroz{
+  background: #e8e8e8;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #747373;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+}
+.yangiliklar{
+  padding: 0 10px;
+}
+.yangiliklar h2{
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.yangi{
+  width: 55px;
+  background: #d92e15;
+  border-radius: 6px;
+  padding: 4px 12px;
+  color: #fff;
+  font-family: Golos-regular;
+  font-size: 12px;
+  font-weight: 400;
 }
